@@ -1,0 +1,114 @@
+.kore-chat-window .kore-chat-header {
+    border-radius: 7px 7px 0px 0px !important;
+    /* background: url(./images/b2.png) !important; */
+    background-color: #21B168 !important;
+    background-size: cover !important;
+}
+
+
+.kore-chat-window .kore-chat-body {
+    background: transparent !important;
+}
+
+.kore-chat-window .endChatContainer .endChatContainerText {
+    background-color: transparent;
+    color: rgb(255, 0, 0) !important;
+}
+
+.kore-chat-window .kore-chat-footer {
+    background-color: #65bf7d !important;
+    border-top: 0px !important;
+}
+
+.kore-chat-window .kore-chat-footer .chatInputBox {
+    background: rgba(255, 255, 255, 0.842) !important;
+    backdrop-filter: blur(16.5px) !important;
+    -webkit-backdrop-filter: blur(16.5px) !important;
+    border-radius: 5px !important;
+    padding: 7px 10px !important;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid rgba(220, 220, 220, 0.18) !important;
+}
+
+.kore-chat-window ul.chat-container li.fromOtherUsers .messageBubble {
+    background: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 0 8px 32px 0 rgba(49, 203, 126, 0.37) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+.kore-chat-window ul.chat-container li.fromCurrentUser .messageBubble {
+    border-color: transparent !important;
+    background: #1baf67 !important;
+    backdrop-filter: blur(16.5px) !;
+    -webkit-backdrop-filter: blur(16.5px) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+.kore-chat-window {
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+
+}
+
+.kore-chat-window ul.chat-container li.fromOtherUsers.with-icon .extra-info {
+    color: black !important;
+}
+
+/* .kore-chat-body {
+    background-color: transparent !important;
+} */
+
+.kore-chat-window .kore-chat-body ul.chat-container {
+    background-color: transparent !important;
+}
+
+.kore-chat-window .kore-chat-footer {
+    border-radius: 0px 0px 5px 5px !important;
+    /* background: url(./images/b2.png) !important; */
+    background-color: #21B168 !important;
+    background-size: cover !important;
+}
+
+
+.minimize-btn {
+    fill: white !important;
+}
+
+
+
+
+.kore-chat-window .buttonTmplContent .buttonTmplContentChild .quickReply {
+    background-color: #1baf67;
+}
+
+body {
+    background: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.kore-chat-window.minimize .minimized {
+    background-color: #1baf67 !important;
+}
+
+.kore-chat-window.minimize .minimized-title {
+    background-color: #1baf67 !important;
+}
+
+.kore-chat-window .kore-chat-footer .chatSendMsg{
+    color: white !important;
+}
+
+button.reload-btn img,
+button.minimize-btn img,
+button.expand-btn img,
+button.close-btn img {
+    filter: brightness(0) invert(1) !important;
+}
